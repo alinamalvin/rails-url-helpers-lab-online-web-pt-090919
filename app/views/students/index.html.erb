@@ -1,4 +1,4 @@
-<div>
+<%= content_tag :div do %>
   <% @students.each do |student| %>
    <%= content_tag :div do %>
       <%= link_to student.to_s, student_path(student) %>
